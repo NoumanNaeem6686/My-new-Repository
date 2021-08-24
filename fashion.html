@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .maincontainer {
+            /* width: 100%; */
+            height: 100vh;
+            background-image: url(./FashionImg/background.png);
+            background-size: cover;
+            background-position: center;
+            padding-left: 5%;
+            padding-right: 5%;
+            box-sizing: border-box;
+        }
+
+        .navbar {
+            width: 100%;
+            height: 15vh;
+            display: flex;
+            align-items: center;
+        }
+
+        .logo {
+            width: 140px;
+            cursor: pointer;
+        }
+
+        .cart {
+            width: 40px;
+            cursor: pointer;
+        }
+
+        nav {
+            flex: 1;
+            padding: 60px;
+        }
+
+        nav ul li {
+            display: inline-block;
+            list-style: none;
+            margin: 20px;
+            color: #333;
+            font-size: 15px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        /* nav ul li:hover{
+            background-color: rgb(199, 39, 191);
+            cursor: pointer;
+            height: 35px;
+            width: 80px;
+        } */
+
+        .content h2 {
+            font-size: 60px;
+            font-weight: 100;
+            margin-top: 25px;
+            margin-bottom: 15px;
+            color: #232d;
+        }
+
+        .content p {
+            font-size: 20px;
+            color: #6a7199;
+        }
+
+        .content {
+            margin-left: 10%;
+            margin-top: 10%;
+        }
+        .btn{
+            width: 150px;
+            height: 40px;
+            color:#333;
+            background-color: turquoise;
+            border: none;
+            border-radius: 5px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .btn:hover{
+            background-color:blueviolet
+        }
+        .icon{
+            margin-top: 40px;
+            display: flex;
+        }
+        .icon img{
+            width: 40px;
+            margin-right: 25px;
+        }
+        .mainimg{
+            height: 90%;
+            position: absolute;
+            bottom: 0;
+            right: 160px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="maincontainer">
+        <div class="navbar">
+            <img src="./FashionImg/logo.png" class="logo" alt="">
+            <nav>
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Feedback</li>
+                </ul>
+            </nav>
+            <img src="./FashionImg/cart.png" class="cart" alt="">
+        </div>
+        <div class="content">
+            <input type="button" value="New collection" class="btn">
+            <h2>You should always <br /> feel preety</h2>
+            <p>Hello we are here you help you in any metter</p>
+        
+         <div class="icon">
+             <img src="./FashionImg/back-arrow.png" alt="">
+             <img src="./FashionImg/next-arrow.png" alt="">
+         </div>
+        </div>
+        <img src="./FashionImg/img.png" alt="" class="mainimg">
+
+
+    </div>
+
+</body>
+
+</html>
