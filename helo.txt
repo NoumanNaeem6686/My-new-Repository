@@ -1,1 +1,26 @@
 yes hello em here
+
+
+<section id="contact">
+        <h1 class="h-primery center">Contact Us</h1>
+        <div class="contact-box">
+            <form action="">
+                <div class="form-group">
+                    <label for="">Name:</label>
+                    <input type="text" name="name" placeholder="Enter Your Name">
+                </div>
+                <div class="form-group">
+                    <label for="">contact:</label>
+                    <input type="number" name="name" placeholder="Enter Your Name">
+                </div>
+                <div class="form-group">
+                    <label for="">Email:</label>
+                    <input type="text" name="name" placeholder="Enter Your Name">
+                </div>
+                <div class="form-group">
+                    <label for="">Message:</label>
+                    <textarea name="message" id="" cols="10" rows="10"></textarea>
+                </div>
+            </form>
+        </div>
+    </section>
