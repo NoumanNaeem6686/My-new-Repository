@@ -1,4 +1,2 @@
 stash wali pehli file
-
-
-dosri wali line k liya stash
+now i am trying to make different stashes on this file
